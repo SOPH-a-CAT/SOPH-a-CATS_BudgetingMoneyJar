@@ -1,0 +1,209 @@
+:root{--bg:#f5f1f8;--ink:#494153;--muted:#82798c;--accent:#7b6297;--soft:#eee5f4;--line:#eee8f0}*{box-sizing:border-box}body{margin:0;color:var(--ink);font-family:ui-rounded,'Avenir Next','Segoe UI',sans-serif;background-color:var(--bg);background-image:radial-gradient(#b8a6cc35 .9px,transparent .9px);background-size:20px 20px;transition:background-color .5s}button,input{font:inherit}button{cursor:pointer;transition:transform .15s,background .2s}button:hover{filter:brightness(.97);transform:translateY(-1px)}button:focus-visible,a:focus-visible{outline:3px solid #9c80b7;outline-offset:4px}header{height:92px;border-bottom:1px solid #e7dfed;background:#ffffffa6;display:flex;align-items:center;padding:0 max(5%,calc((100vw - 1220px)/2));gap:24px}.brand{display:flex;align-items:center;text-decoration:none;color:var(--ink);font-size:26px;letter-spacing:-1.1px;font-weight:800;white-space:nowrap}.brand-icon{font-size:29px;background:#f8e4ec;border-radius:13px;padding:7px;margin-right:11px}.brand-dot{color:#ba94c8}.header-note{font-size:14px;color:var(--muted);margin-left:10px}.outline{margin-left:auto;border:1px solid #ded3e6;background:#fff9;border-radius:10px;padding:11px 16px;color:#746382;font-size:14px}main{max-width:1220px;margin:auto;padding:39px 0 24px}.intro{display:flex;align-items:center;justify-content:space-between;margin-bottom:29px}.eyebrow{font-size:11px;font-weight:800;letter-spacing:2px;color:#9a88a7}h1{font-size:29px;letter-spacing:-1px;margin:10px 0;font-weight:750}h1 span{color:#b6a0ca}p{margin:0}.intro p{font-size:15px;color:var(--muted)}.date-pill{border:1px solid #e7deee;padding:12px 16px;border-radius:30px;font-size:13px;background:#fffa;color:#80718b}.dashboard{display:grid;grid-template-columns:1.12fr 1fr;gap:25px}.left,.right{display:flex;flex-direction:column;gap:21px}.card{background:#fff;border:1px solid #e9e2ec;border-radius:20px;padding:24px;box-shadow:0 5px 18px #56426004}.card-heading{display:flex;justify-content:space-between;align-items:center;gap:8px}h2{margin:0;font-size:17px;letter-spacing:-.35px;display:flex;align-items:center;gap:11px}.badge{font-size:11px;background:#fff9;padding:7px 10px;border-radius:20px;color:#9b7388}.balance-card{background:linear-gradient(140deg,#fff5f8,#fcecf2 65%,#f8eaf6);text-align:center}.balance-card .card-heading{text-align:left}.pig-scene{position:relative;margin:17px auto 2px;width:240px;height:151px}.pig{font-size:116px;display:block;filter:drop-shadow(0 12px 9px #cf91aa30);animation:bob 4s ease-in-out infinite}.spark{position:absolute;color:#caa2bc;font-size:25px}.s1{left:10px;top:54px}.s2{right:16px;top:32px;font-size:19px}.s3{right:27px;bottom:0}.coin{position:absolute;left:53px;top:10px;font-weight:800;border:3px solid #e6c073;background:#f8dda0;color:#bf9548;border-radius:50%;height:28px;width:28px;transform:rotate(-20deg)}.balance-label{color:#917584;font-size:14px}.balance{font-size:53px;font-weight:800;letter-spacing:-2px;line-height:1.4;color:#664e61}.balance-caption{font-size:12px;color:#9c8493}.money-form{margin-top:25px;background:#ffffffc9;border:1px solid #fff;border-radius:13px;padding:15px;text-align:left}.tabs{display:flex;padding:4px;background:#f4edf2;border-radius:9px;margin-bottom:17px}.tabs button{width:50%;border:0;background:transparent;padding:10px 5px;color:#978896;font-size:13px;border-radius:7px}.tabs button.active{background:white;box-shadow:0 2px 5px #4732500c;color:#806287;font-weight:650}.input-row{display:grid;grid-template-columns:1fr 1.6fr;gap:12px}label{display:block;font-size:12px;font-weight:600;margin-bottom:14px;color:#78697d}input{width:100%;padding:12px;border:1px solid #e5dce7;border-radius:8px;background:#fff;margin-top:8px;color:var(--ink);min-width:0;font-size:14px}input:focus{outline:2px solid #bd9dcf}input::placeholder{color:#aba1af}.optional{font-weight:400;font-size:11px}.amount-input{position:relative}.amount-input span{position:absolute;top:20px;left:12px;color:#a090a5}.amount-input input{padding-left:27px}.primary{background:var(--accent);color:white;border:0;border-radius:9px;padding:12px 16px;font-size:14px;font-weight:600}.full{width:100%}.primary span{float:right}.muted{font-size:12px;color:var(--muted)}.empty{padding:23px 12px;text-align:center;font-size:14px;color:#96879d;line-height:1.7}.empty span{display:block;font-size:26px;margin-bottom:7px}.icon-tile{display:inline-flex;justify-content:center;align-items:center;width:34px;height:34px;border-radius:11px;font-size:19px;font-weight:500}.peach{background:#fff0e5;color:#b88362}.mint{background:#e7f2eb;color:#689982}.lilac{background:#f0eafa;color:#927bb3}.text-button{border:0;background:transparent;color:#9b83af;font-size:12px;padding:6px}.owed-summary{display:flex;align-items:center;gap:17px;margin:16px 0 5px}.owed-summary strong{font-size:31px;letter-spacing:-1px}.owed-summary span{font-size:12px;color:#a293a8}.section-note{font-size:12px;color:#96899e;margin-top:12px;line-height:1.6}.reminder-note{border-top:1px solid var(--line);padding-top:14px;color:#9b8aa5;font-size:11px;margin-top:12px}.gentle-tip{display:flex;align-items:center;gap:12px;padding:0 16px;color:#9b8aa0;font-size:12px;line-height:1.8}.gentle-tip>span{font-size:24px}.gentle-tip strong{font-weight:400;color:#84768c}.row{display:flex;gap:11px;align-items:center;border-top:1px solid var(--line);padding:13px 0;font-size:14px}.row:first-child{border-top:0}.row-icon{padding:9px;background:var(--soft);border-radius:10px}.row-info{flex:1;min-width:0;overflow-wrap:anywhere}.row-info small{display:block;color:var(--muted);font-size:12px;margin-top:4px}.row strong{white-space:nowrap;font-size:14px}.small-button{font-size:11px;padding:6px 8px;border:1px solid #e8dfed;border-radius:7px;background:#fff;color:#8c769b}.positive{color:#639a83}.due{color:#b96f6e!important}.goal-content{margin-top:23px;display:flex;align-items:center;gap:15px}.goal-emoji{font-size:32px;background:#eef5ed;border-radius:14px;padding:14px}.goal-name{font-size:17px;font-weight:650}.goal-detail{display:flex;justify-content:space-between;margin:22px 0 10px;font-size:12px;color:#8c8094}progress{width:100%;height:11px;border:0;border-radius:20px;overflow:hidden;appearance:none}progress::-webkit-progress-bar{background:#eff1eb}progress::-webkit-progress-value{background:#acc8ad;border-radius:20px}progress::-moz-progress-bar{background:#acc8ad}.goal-foot{display:flex;justify-content:space-between;align-items:center;margin-top:10px;font-size:12px;color:#8a9d86}footer{display:flex;justify-content:space-between;padding:27px 3px 0;color:#a698ad;font-size:11px}.saved-dot{color:#a0b799;margin-left:5px}dialog{border:1px solid #e7deed;border-radius:20px;padding:27px;width:min(420px,92vw);color:var(--ink);box-shadow:0 24px 80px #47335030}dialog::backdrop{background:#49395050;backdrop-filter:blur(4px)}dialog .card-heading{margin-bottom:22px}.close{border:0;background:var(--soft);border-radius:50%;width:29px;height:29px;font-size:21px;color:var(--accent)}dialog .primary{margin-top:18px}.toast{position:fixed;bottom:24px;left:50%;transform:translate(-50%,20px);background:#62516e;color:white;border-radius:12px;padding:13px 22px;opacity:0;pointer-events:none;transition:.3s;z-index:10;max-width:90%;font-size:14px}.toast.show{opacity:1;transform:translate(-50%,0)}@keyframes bob{50%{transform:translateY(-5px) rotate(2deg)}}@media(min-width:1450px){main{padding-top:48px}}@media(max-width:1280px){main{margin:0 5%}}@media(max-width:800px){header{height:76px}.header-note{display:none}.intro{align-items:flex-start}.date-pill{display:none}h1{font-size:26px}.dashboard{grid-template-columns:1fr}.balance-card{padding:20px}.right{gap:18px}.brand{font-size:22px}.outline{font-size:12px;padding:10px}.intro{margin-bottom:23px}main{padding-top:28px}footer{gap:16px;font-size:10px}.input-row{grid-template-columns:1fr 1.4fr}}@media(prefers-reduced-motion:reduce){*,*:before,*:after{animation:none!important;transition:none!important}}
+
+/* Quiet pastel sections make each money task easy to find. */
+body{background-image:none}
+header{background:#ffffff80}
+.dashboard{gap:30px}
+.left,.right{gap:26px}
+.card{padding:27px;border-color:#ffffffb3;box-shadow:none}
+.balance-card{background:#fbe5ee}
+.owed-card{background:#fff0df}
+.goal-card{background:#e8f3e8}
+.payments-card{background:#e8effb}
+.activity-card{background:#f0e9f8}
+.card h2{font-size:19px;color:#51485b}
+.pig{animation:none}
+.spark,.coin,.badge,.header-note,.balance-caption,.gentle-tip{display:none}
+.pig-scene{margin-top:12px;height:139px}
+.money-form{background:#fff8fb;border:0;padding:18px;margin-top:21px}
+.tabs{background:#f4e9f0}
+.tabs button{font-size:14px;color:#746379}
+.tabs button.active{color:#654e70}
+.primary{background:#d6c4e8;color:#493657;padding:14px 16px}
+.primary:hover{background:#cdb6e2}
+label,.optional{font-size:14px;color:#6d5b73}
+input{font-size:16px}
+.empty{color:#706579;padding:24px 12px;font-size:15px}
+.section-note,.muted,.row-info small{font-size:14px;color:#756a7d}
+.text-button{font-size:14px;color:#665176;background:#ffffff85;border-radius:8px;padding:8px 11px}
+.owed-summary span,.goal-detail,.goal-foot{font-size:14px;color:#6e6573}
+.reminder-note{font-size:13px;color:#6c6680;border-color:#d5dfee;line-height:1.6}
+.row{border-color:#7167801c;padding:16px 0}
+.small-button{font-size:13px;color:#665176;padding:8px 10px}
+.balance-label{font-size:16px;color:#795f71}
+.intro p{color:#756a7d}
+.icon-tile{background:#ffffff90}
+.goal-detail strong{color:#4f6653}
+@media(max-width:800px){.card{padding:22px}.dashboard{gap:24px}.input-row{grid-template-columns:1fr}.intro h1{font-size:27px}}
+.input-row{grid-template-columns:1fr}
+.input-row{grid-template-columns:1fr 1fr}
+@media(max-width:480px){.input-row{grid-template-columns:1fr}}
+.brand-icon{display:flex;padding:2px;background:transparent}
+.brand-icon img{object-fit:contain;display:block}
+.pig-scene{height:150px}
+.piggy-image{width:150px;height:150px;object-fit:contain;margin:auto;filter:none}
+.money-note{grid-column:1 / -1}
+.savings-item + .savings-item{border-top:1px solid #cddfce;margin-top:24px;padding-top:4px}
+.goal-title{flex:1;min-width:0;overflow-wrap:anywhere}
+/* Keep every goal visible with a dedicated action inside its own card. */
+#goal{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px;margin-top:20px}
+#goal>.empty{grid-column:1 / -1}
+.savings-item{display:flex;flex-direction:column;min-width:0;background:#f8fcf6;border:1px solid #cddfce;border-radius:14px;padding:16px}
+.savings-item + .savings-item{margin-top:0;padding-top:16px}
+.savings-item .goal-content{margin-top:0;gap:8px;flex-wrap:wrap;align-items:center}
+.savings-item .goal-emoji{display:none}
+.savings-item .goal-name{font-size:16px}
+.savings-item .goal-detail{display:flex;flex-wrap:wrap;gap:8px;margin-top:auto;padding-top:20px;line-height:1.6}
+.savings-item .goal-foot{flex-direction:column;align-items:stretch;gap:12px;line-height:1.5}
+.savings-item .goal-foot button{width:100%;background:#d8ead6;color:#405f43;padding:12px 8px;font-weight:600}
+@media(max-width:480px){#goal{grid-template-columns:1fr}}
+/* Savings use the same simple rows as Money I owe. */
+#goal{display:block;margin-top:12px}
+.savings-row{padding:0 0 16px}
+.savings-row + .savings-row{border-top:1px solid #7167801c;padding-top:4px}
+.savings-row:last-child{padding-bottom:0}
+.savings-row .row{border:0;margin:0;padding:14px 0}
+.savings-row progress{display:block;height:9px}
+.savings-status{display:flex;justify-content:space-between;gap:12px;margin-top:8px;color:#657566;font-size:13px}
+@media(max-width:480px){.savings-row .row{flex-wrap:wrap}.savings-row .row-info{flex-basis:100%}}
+/* Clear, readable lettering on the soft pastel surfaces. */
+:root{--ink:#352c40;--muted:#62566e}
+body{color:var(--ink);line-height:1.5}
+h1{color:#352c40;font-weight:800}
+.card h2{color:#3d304b;font-size:20px;font-weight:750}
+.eyebrow{color:#6c557d;font-size:12px;letter-spacing:1.5px}
+.intro p,.section-note,.muted,.row-info small{color:#62556d}
+label,.optional{color:#51415e}
+label{font-size:15px;font-weight:650}
+.optional{font-size:14px;font-weight:400}
+input{color:#352c40}
+input::placeholder{color:#776a7f;opacity:1}
+.balance-label{color:#634355;font-weight:600}
+.balance{color:#513347}
+.row-info{font-size:16px;font-weight:600}
+.row-info small{font-size:14px;font-weight:400}
+.row strong{font-size:16px;color:#403148}
+.row strong.positive{color:#36664d}
+.empty{color:#62536d;font-size:16px}
+.text-button,.small-button{color:#503b66;font-size:14px;font-weight:650}
+.tabs button{color:#62516c;font-size:15px;font-weight:600}
+.tabs button.active{color:#473054;font-weight:750}
+.primary{color:#40294f;font-size:16px;font-weight:700}
+.owed-summary span{color:#685369;font-size:14px}
+.savings-status{color:#425c45;font-size:14px;font-weight:600}
+.reminder-note{color:#52516d;font-size:14px}
+.date-pill,.outline{color:#5b466c;font-size:14px}
+.due{color:#9a393e!important;font-weight:600!important}
+footer{color:#6e5e79;font-size:12px}
+/* Make secondary text readable without enlarging the main headings. */
+.section-note,.muted,.row-info small,.optional,.owed-summary span,
+.reminder-note,.savings-status,.balance-label,.date-pill,
+.goal-detail,.goal-foot,.intro p,footer{
+  color:#51435e;
+  font-size:15px;
+  font-weight:500;
+  line-height:1.6;
+}
+input::placeholder{color:#63546e;opacity:1}
+.eyebrow{color:#594468;font-size:13px;font-weight:700}
+footer{font-size:14px}
+.savings-status{color:#405542}
+/* Neutral canvas separates all of the colored money sections. */
+:root{--bg:#e5e6eb}
+body{background-color:#e5e6eb;background-image:none}
+header{background:#f7f7f9;border-bottom-color:#d5d6df}
+.card{border-color:#ffffff;box-shadow:0 3px 12px #352c4008}
+/* A quiet, warm pastel backdrop with clearly outlined sections. */
+:root{--bg:#fbf7f2}
+body{background-color:#fbf7f2;background-image:linear-gradient(135deg,#fffaf0 0%,#fbf5f3 52%,#f5edf5 100%);background-attachment:fixed}
+header{background:#fffaf5cc;border-bottom:1px solid #e8dce5}
+.card{border:1px solid #dbcbdc;box-shadow:0 5px 16px #674b6807}
+.balance-card{border-color:#e4becf}
+.owed-card{border-color:#e5ccb1}
+.goal-card{border-color:#bfd5c1}
+.payments-card{border-color:#bfcee4}
+.activity-card{border-color:#d2c1e1}
+.delete-goal{display:block;width:100%;margin-top:12px;padding:12px;border:1px solid #d8a4ad;border-radius:9px;background:#fff0f2;color:#913f50;font-size:15px;font-weight:600}
+.delete-goal:hover{background:#fce2e8}
+.goal-budget{margin-top:14px;padding:12px;background:#ffffff80;border-radius:9px;color:#405542;font-size:14px;line-height:1.6}
+.budget-line{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap}
+.budget-line strong{font-size:16px}
+.goal-budget p{margin-top:7px}
+.budget-note{font-size:14px;color:#51435e;line-height:1.6;margin-top:18px}
+.goal-budget summary{cursor:pointer;font-weight:600;color:#405542}
+.goal-budget summary:focus-visible{outline:3px solid #9c80b7;outline-offset:4px;border-radius:3px}
+.goal-budget[open] .budget-line{margin-top:12px}
+/* The savings jar is the main visual of the money space. */
+.balance-card{background:linear-gradient(155deg,#fff3ed,#fae5ed)}
+.savings-jar{position:relative;width:min(360px,100%);aspect-ratio:1;margin:12px auto 0;--jar-cut:100%}
+.savings-jar img{position:absolute;inset:0;width:100%;height:100%;object-fit:contain}
+.jar-filled{clip-path:inset(var(--jar-cut) 0 0 0);transition:clip-path 1s ease-in-out}
+.jar-scale{font-size:13px;color:#715469;margin:0 0 18px}
+.balance{font-size:46px}
+@media(max-width:480px){.savings-jar{width:280px}}
+@media(prefers-reduced-motion:reduce){.jar-filled{transition:none}}
+/* A soft display shelf for each hundred dollars saved. */
+.jar-stage{position:relative;margin-top:15px;padding:15px 0 0;border-radius:24px;background:radial-gradient(ellipse at 50% 65%,#fffaf5 0%,#fff5ec99 40%,transparent 72%)}
+.savings-jar{width:min(320px,85%);margin:10px auto 0;filter:saturate(.72) brightness(1.06) drop-shadow(0 10px 12px #ae829722)}
+.completed-jars{position:absolute;right:0;top:0;z-index:2;display:flex;align-items:center;gap:6px;padding:7px 12px 7px 7px;background:#fff9f4;border:1px solid #ead2d8;border-radius:16px;box-shadow:0 4px 12px #9b6c8309}
+.completed-jars[hidden]{display:none}
+.completed-jars img{object-fit:contain;filter:saturate(.72) brightness(1.06)}
+.completed-jars strong{display:block;font-size:20px;color:#705267}
+.completed-jars small{display:block;font-size:12px;color:#705267}
+.jar-flight{position:absolute;top:25px;left:50%;margin-left:-160px;pointer-events:none;z-index:5}
+.jar-scale{display:inline-block;padding:6px 14px;background:#fff8f6;border:1px solid #edd7df;border-radius:20px;font-size:14px;color:#715469;margin-top:9px}
+/* Preserve the warm gold of the updated coin artwork. */
+.savings-jar{filter:brightness(1.03) drop-shadow(0 10px 12px #ae829722)}
+.completed-jars img{filter:brightness(1.03)}
+.jar-filled,.completed-jars img{mask-image:url('assets/jar-full.png');mask-size:100% 100%;mask-repeat:no-repeat;-webkit-mask-image:url('assets/jar-full.png');-webkit-mask-size:100% 100%;-webkit-mask-repeat:no-repeat}
+/* Slightly richer colors, keeping the soft Money Jar palette. */
+.balance-card{background:linear-gradient(155deg,#fbe6df,#f2cddc);border-color:#dcaabd}
+.owed-card{background:#f8dfc3;border-color:#dcb996}
+.goal-card{background:#d3e8d2;border-color:#a9c7ab}
+.payments-card{background:#d4e1f6;border-color:#aabfdf}
+.activity-card{background:#e1d3f0;border-color:#bea6d4}
+/* Clear butter yellow and rose pink, without brown or purple undertones. */
+.owed-card{background:#fff0ad;border-color:#e6cc70}
+.balance-card{background:linear-gradient(155deg,#ffe3e9,#f8c5d2);border-color:#e4a3b5}
+/* A slightly richer version of the reference's light lemon yellow. */
+.owed-card{background:#f8f5b5;border-color:#dedb91}
+
+/* Exact yellow sampled from the supplied reference. */
+.owed-card{background:#faf9d0;border-color:#faf9d0}
+/* Palette supplied by the user: cream, mint, blue, lavender, pink, peach. */
+:root{--bg:#f5f4ee;--soft:#dbcdf0}
+body{background:#f5f4ee}
+header{background:#fffdf8;border-bottom-color:#e7dfdf}
+.balance-card{background:#f2c6de;border-color:#dcaac5}
+.owed-card{background:#faedcb;border-color:#dfcfa6}
+.goal-card{background:#c9e4de;border-color:#a6cbc2}
+.payments-card{background:#c6def1;border-color:#a5c4de}
+.activity-card{background:#dbcdf0;border-color:#bfa9db}
+.money-form{background:#fff9fc}
+.primary{background:#dbcdf0;color:#40294f}
+.primary:hover{background:#cdbbe6}
+.completed-jars{background:#f7d9c4;border-color:#dfbda6}
+.jar-scale{background:#f7d9c4;border-color:#dfbda6;color:#614653}
+.jar-stage{background:radial-gradient(ellipse at 50% 65%,#fff9f4 0%,#f7d9c480 42%,transparent 72%)}
+/* Exact RGBA box colors requested by the user. */
+.balance-card{background:rgba(255,164,211,0.8)}
+.owed-card{background:rgba(255,255,175,0.8)}
+.goal-card{background:rgba(185,254,187,0.78)}
+.payments-card{background:rgba(185,232,255,0.78)}
+.activity-card{background:rgba(212,188,255,0.78)}
+/* Blend the requested hues with white for a lighter pastel finish. */
+.balance-card{background:#ffd3e9;border-color:#ebc4d7}
+.owed-card{background:#ffffd8;border-color:#e5e5b9}
+.goal-card{background:#ddffde;border-color:#bedfc0}
+.payments-card{background:#ddf4ff;border-color:#bed9e8}
+.activity-card{background:#eadfff;border-color:#d0c2e8}
+/* Restore the soft ivory-to-pink background. */
+body{background-color:#fbf7f2;background-image:linear-gradient(135deg,#fffaf0 0%,#fbf5f3 52%,#f5edf5 100%);background-attachment:fixed}
+/* Soft checkerboard background. */
+body{background-color:#fffaf6;background-image:conic-gradient(#f0e5ef 25%,#fffaf6 0 50%,#f0e5ef 0 75%,#fffaf6 0);background-size:96px 96px;background-attachment:fixed}
+/* Neutral pastel checkerboard in cream and pale beige. */
+body{background-color:#fffdf7;background-image:conic-gradient(#eee9df 25%,#fffdf7 0 50%,#eee9df 0 75%,#fffdf7 0);background-size:96px 96px;background-attachment:fixed}
+/* Tiny neutral checkerboard squares. */
+body{background-size:12px 12px}
+/* Subtle neutral polka-dot background. */
+body{background-color:#fffdf7;background-image:radial-gradient(circle,#dcd5c9 1px,transparent 1px);background-size:20px 20px;background-attachment:fixed}
